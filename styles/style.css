@@ -3,6 +3,18 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.uni-btn {
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    color: #F15B22;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 24px;
+}
+
 /* Header Area Styles */
 
 header {
@@ -67,7 +79,8 @@ header button:hover {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 24px;
-    color: #151414;;
+    color: #151414;
+    ;
 
 }
 
@@ -82,33 +95,76 @@ header button:hover {
     color: #444343;
 }
 
-.my-failure-contents ul{
+.my-failure-contents ul {
     padding: 0;
 }
-.my-failure-contents ul li{
+
+.my-failure-contents ul li {
     list-style: none;
     margin: 10px 0;
 }
-.my-failure-contents ul li i{
+
+.my-failure-contents ul li i {
     color: #16D887;
 }
 
 /* My Plans Section Styles */
 
-.my-plans-container{
+.my-plans-container {
     text-align: center;
     margin: 130px 206px;
     align-items: center;
 
 }
 
-.my-plans-ttile{
+.my-plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
     margin-bottom: 55px;
 
 }
 
-.my-plans{
+.my-plans {
     display: flex;
     justify-content: space-between;
-    
+
+}
+
+.my-plans img {
+    margin-bottom: 24px;
+}
+
+.my-plans h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.my-plans p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* Call Now Section Styles */
+
+.call-now {
+    text-align: left;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin: 130px 206px;
+    padding: 59px 420px 59px 64px;
+
+}
+
+.call-now h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+
 }
