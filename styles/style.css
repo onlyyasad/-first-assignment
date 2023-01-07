@@ -14,10 +14,7 @@ header {
 
 }
 
-.header {
-    
-
-}
+.header {}
 
 .header-title {
     font-weight: 700;
@@ -44,6 +41,74 @@ header {
     padding: 10px 30px;
 }
 
-header button:hover{
-    background-color:#e96936;
+header button:hover {
+    background-color: #e96936;
+}
+
+/* My failure of previous year area styles */
+
+.my-failure {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 130px 206px;
+    gap: 87px;
+}
+
+.my-failure img {
+    max-width: 50%;
+}
+
+.my-failure-contents {
+    padding-top: 190px;
+}
+
+.my-failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #151414;;
+
+}
+
+.my-failure-description {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.my-failure-list {
+    font-size: 16px;
+    color: #444343;
+}
+
+.my-failure-contents ul{
+    padding: 0;
+}
+.my-failure-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.my-failure-contents ul li i{
+    color: #16D887;
+}
+
+/* My Plans Section Styles */
+
+.my-plans-container{
+    text-align: center;
+    margin: 130px 206px;
+    align-items: center;
+
+}
+
+.my-plans-ttile{
+    margin-bottom: 55px;
+
+}
+
+.my-plans{
+    display: flex;
+    justify-content: space-between;
+    
 }
