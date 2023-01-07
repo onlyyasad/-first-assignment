@@ -6,13 +6,17 @@
 .uni-btn {
     font-weight: 600;
     font-size: 20px;
-    height: 64px;
+    height: 55px;
     color: #F15B22;
     background-color: #ffffff;
     border: 0;
     border-radius: 5px;
     padding: 10px 30px;
     margin-top: 24px;
+}
+
+.uni-btn:hover{
+    background-color: #dbdbdb;
 }
 
 /* Header Area Styles */
@@ -45,8 +49,8 @@ header {
 .contact-us {
     font-weight: 600;
     font-size: 20px;
-    height: 64px;
-    background-color: #F15B22;
+    height: 55px;
+    background-color: rgb(241, 93, 34);
     color: #ffffff;
     border: 0;
     border-radius: 5px;
@@ -54,7 +58,7 @@ header {
 }
 
 header button:hover {
-    background-color: #e96936;
+    background-color: #e97c51;
 }
 
 /* My failure of previous year area styles */
@@ -152,8 +156,9 @@ header button:hover {
 
 .call-now {
     text-align: left;
-    background-image: url(../images/watch.png);
+    background-image:linear-gradient(to right, rgb(241, 93, 34), rgba(241, 93, 34, 0) ), url(../images/watch.png);
     background-repeat: no-repeat;
+    background-size: cover;
     max-width: 100%;
     border: 0;
     border-radius: 5px;
@@ -171,7 +176,63 @@ header button:hover {
 
 /* Footer Area Styles */
 
-footer{
+footer {
     background: #151414;
     padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future{
+    padding-right: 150px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.future p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.future-description {
+    margin-bottom: 32px;
+}
+
+.future-email {
+    margin-bottom: 16px;
+}
+
+.future-phone {
+    margin-bottom: 32px;
+}
+
+.follow{
+    display: flex;
+    gap: 15px;
+}
+
+.follow a{
+    text-decoration: none;
+}
+
+.form h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.form input[type=email]{
+    font-size: 18px;
+    height: 50px;
+    color: #f3f3f3;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 2px 25px;
 }
